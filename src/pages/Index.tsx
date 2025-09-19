@@ -32,14 +32,6 @@ const Index = () => {
       ingredients: ["Fresh Eggs", "Golden Potatoes", "Melted Cheese", "Crispy Bacon"],
       image: baconImage,
       description: "Everything you love about The Classic, elevated with crispy, smoky bacon strips."
-    },
-    {
-      title: "Supreme",
-      price: "$11.99",
-      ingredients: ["Fresh Eggs", "Golden Potatoes", "Melted Cheese", "Crispy Bacon", "Fresh Avocado"],
-      image: premiumImage,
-      description: "The ultimate breakfast experience with creamy avocado completing this gourmet creation.",
-      isPremium: true
     }
   ];
 
@@ -72,7 +64,7 @@ const Index = () => {
               <span className="block text-brand-gold">Made Fresh Daily</span>
             </h2>
             <p className="text-xl md:text-2xl text-white/90 font-body mb-8 max-w-2xl mx-auto">
-              Choose your perfect breakfast burrito from our three signature options. 
+              Choose your perfect breakfast burrito from our two signature options. 
               Made with farm-fresh ingredients and wrapped with love.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -105,7 +97,7 @@ const Index = () => {
                 ingredients={burrito.ingredients}
                 image={burrito.image}
                 description={burrito.description}
-                isPremium={burrito.isPremium}
+                isPremium={false}
                 onOrder={() => handleOrder(burrito.title, burrito.price)}
               />
             ))}

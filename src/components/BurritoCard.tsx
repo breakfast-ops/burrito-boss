@@ -24,7 +24,7 @@ const BurritoCard = ({ title, price, ingredients, image, description, isPremium,
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
         <div className="absolute top-4 right-4">
-          <span className={`px-3 py-1 rounded-full text-sm font-display font-bold ${
+          <span className={`px-4 py-2 rounded-full text-xl font-display font-bold ${
             isPremium 
               ? "bg-gradient-to-r from-brand-gold to-secondary text-foreground" 
               : "bg-brand-red text-white"

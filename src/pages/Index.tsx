@@ -20,21 +20,21 @@ const Index = () => {
 
   const burritos = [
     {
-      title: "The Classic",
+      title: "Classic",
       price: "$5.99",
       ingredients: ["Fresh Eggs", "Golden Potatoes", "Melted Cheese"],
       image: classicImage,
       description: "Our signature breakfast burrito with all the essentials for a perfect start to your day."
     },
     {
-      title: "The Bacon Boost",
+      title: "Loaded",
       price: "$9.99", 
       ingredients: ["Fresh Eggs", "Golden Potatoes", "Melted Cheese", "Crispy Bacon"],
       image: baconImage,
       description: "Everything you love about The Classic, elevated with crispy, smoky bacon strips."
     },
     {
-      title: "The Premium",
+      title: "Supreme",
       price: "$11.99",
       ingredients: ["Fresh Eggs", "Golden Potatoes", "Melted Cheese", "Crispy Bacon", "Fresh Avocado"],
       image: premiumImage,
@@ -54,7 +54,7 @@ const Index = () => {
               <img 
                 src={logo} 
                 alt="The Breakfast Stand"
-                className="w-16 h-16 rounded-lg shadow-lg"
+                className="w-32 h-32 rounded-lg shadow-lg"
               />
               <div>
                 <h1 className="text-2xl font-display font-bold text-white">The Breakfast Stand</h1>
@@ -124,7 +124,7 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="premium" size="lg" className="text-lg px-8 py-6">
-                📞 Call to Order: (555) 123-WRAP
+                📞 Call to Order: (818) BURRITO
               </Button>
               <Button variant="order" size="lg" className="text-lg px-8 py-6">
                 📍 Visit Our Stand

@@ -46,7 +46,7 @@ const Index = () => {
               <img 
                 src={logo} 
                 alt="The Breakfast Stand"
-                className="w-32 h-32 rounded-lg shadow-lg"
+                className="w-48 h-48 rounded-lg shadow-lg"
               />
               <div>
                 <h1 className="text-2xl font-display font-bold text-white">The Breakfast Stand</h1>
@@ -88,7 +88,7 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto justify-items-center">
             {burritos.map((burrito, index) => (
               <BurritoCard
                 key={index}

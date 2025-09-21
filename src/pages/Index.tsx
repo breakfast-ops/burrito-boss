@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 import BurritoCard from "@/components/BurritoCard";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/logo-new.jpg";
 import classicImage from "@/assets/burrito-classic.jpg";
 import baconImage from "@/assets/burrito-bacon.jpg";
 import premiumImage from "@/assets/burrito-premium.jpg";
@@ -116,7 +116,7 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="premium" size="lg" className="text-lg px-8 py-6">
-                📞 Call to Order: (818) BURRITO
+                📞 Call to Order: 310-BURRITO
               </Button>
               <Button variant="order" size="lg" className="text-lg px-8 py-6">
                 📍 Visit Our Stand

@@ -42,20 +42,13 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent" />
         <div className="relative container mx-auto px-4 py-8">
           <nav className="flex items-center justify-between mb-12">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center justify-center">
               <img 
                 src={logo} 
                 alt="The Breakfast Stand"
                 className="w-48 h-48 rounded-lg shadow-lg"
               />
-              <div>
-                <h1 className="text-2xl font-display font-bold text-white">The Breakfast Stand</h1>
-                <p className="text-white/80 font-body">Fresh • Fast • Delicious</p>
-              </div>
             </div>
-            <Button variant="premium" size="lg" className="hidden md:block">
-              📍 Find Us
-            </Button>
           </nav>
           
           <div className="text-center max-w-4xl mx-auto">
@@ -67,11 +60,6 @@ const Index = () => {
               Choose your perfect breakfast burrito from our two signature options. 
               Made with farm-fresh ingredients and wrapped with love.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <span className="text-white/80 font-body">🌯 Ready in 5-7 minutes</span>
-              <span className="text-white/80 font-body">🥑 Fresh ingredients daily</span>
-              <span className="text-white/80 font-body">☕ Coffee available</span>
-            </div>
           </div>
         </div>
       </header>
